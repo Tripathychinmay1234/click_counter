@@ -1,0 +1,54 @@
+body {
+    font-family: 'IM Fell English', serif;
+    background-color: #fdf6e3; /* cream background */
+    color: #5c4033; /* dark brown text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #f5e1c5; /* light brown-cream */
+    padding: 40px;
+    margin: 100px auto;
+    width: 360px;
+    border: 2px solid #8b5e3c;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(139, 94, 60, 0.3);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #4b2e1e;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#count {
+    font-weight: bold;
+    font-size: 26px;
+    color: #7a4a28;
+}
+
+button {
+    background: #8b5e3c;
+    color: #fff8e7;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'IM Fell English', serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #a87450;
+}
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click Counter</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Click Counter</h1>
+        <p>Total Clicks: <span id="count">0</span></p>
+        <button onclick="increment()">Click Me</button>
+    </div>
+
+    <script>
+        let count = 0;
+        const counter = document.getElementById('count');
+
+        function increment() {
+            count++;
+            counter.textContent = count;
+        }
+    </script>
+</body>
+</html>
