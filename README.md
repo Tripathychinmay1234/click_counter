@@ -24,7 +24,11 @@ A simple and elegant click counter web app with an old-school UI inspired by tra
 
 📁 Project Structure
 --------------------
-<pre> ``` click_counter/ │ ├── static/ │ └── style.css │ ├── templates/ │ └── index.html │ ├── app.py ├── counter.txt ├── README.md ``` </pre>
+<pre> ``` click_counter/ │ 
+  ├── static/ │ └── style.css │ 
+  ├── templates/ │ └── index.html │ 
+  ├── app.py ├── counter.txt 
+  ├── README.md ``` </pre>
 🎨 Design Theme
 ---------------
 - Background: Cream (#fdf6e3)
