@@ -25,14 +25,16 @@ A simple and elegant click counter web app with an old-school UI inspired by tra
 📁 Project Structure
 --------------------
 click_counter/
-├── static --> style.css
-│  
-├── templates/-->index.html
-│   
-├── app.py
-├── counter.txt
-└── README.md
-
+│
+├── static/
+│   └── style.css               # CSS styles for the web interface
+│
+├── templates/
+│   └── index.html              # HTML template rendered by Flask
+│
+├── app.py                      # Main Flask application
+├── counter.txt                 # File to store the click count
+├── README.md                   # Project documentation (optional but recommended)
 
 🎨 Design Theme
 ---------------
